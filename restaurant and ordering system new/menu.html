@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Urban Bite's fresh, flavour-packed menu.">
+    <title>Our Menu | Urban Bite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="announcement">Freshly prepared every day <span>•</span> Free delivery on orders over ₹499</div>
+    <header class="site-header"><a class="brand" href="index.html"><span
+                class="brand-mark">U<span>B</span></span><span>urban<span class="brand-accent">bite.</span><small>FRESH
+                    FOOD, GOOD MOOD</small></span></a><button class="menu-toggle" aria-label="Open navigation"
+            aria-expanded="false">☰</button>
+        <nav class="nav-links"><a href="index.html">Home</a><a class="active" href="menu.html">Menu</a><a
+                href="about.html">Our story</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-actions"><a class="icon-link" href="#menu-search" aria-label="Search menu">⌕</a><a
+                class="cart-link" href="cart.html">Cart <span class="cart-count">0</span></a></div>
+    </header>
+    <main>
+        <section class="page-hero section-wrap"><span class="eyebrow">MADE FRESH, JUST FOR YOU</span>
+            <h1>What's on <em>the menu?</em></h1>
+            <p>From feel-good classics to new favourites, find your next happy meal.</p>
+            <div class="breadcrumb"><a href="index.html">Home</a><span>/</span> Menu</div>
+        </section>
+        <section class="section-wrap menu-section" id="menu-list">
+            <div class="menu-tools"><label class="search-field" id="menu-search"><span>⌕</span><input type="search"
+                        id="menu-search-input" placeholder="Search dishes..." aria-label="Search dishes"></label>
+                <div class="filter-list" role="group" aria-label="Filter menu"><button class="filter-chip active"
+                        data-filter="All">All items</button><button class="filter-chip"
+                        data-filter="Pizza">Pizza</button><button class="filter-chip"
+                        data-filter="Burgers">Burgers</button><button class="filter-chip"
+                        data-filter="Sides">Sides</button><button class="filter-chip"
+                        data-filter="Drinks">Drinks</button><button class="filter-chip"
+                        data-filter="Desserts">Desserts</button></div>
+            </div>
+            <p class="results-count" id="results-count" aria-live="polite"></p>
+            <div class="product-grid" id="product-grid"></div>
+            <div class="empty-state" id="menu-empty" hidden><span>⌕</span>
+                <h3>No dishes found</h3>
+                <p>Try another search or category.</p><button class="btn btn-dark" id="reset-menu">Reset menu</button>
+            </div>
+        </section>
+        <section class="promo-strip section-wrap">
+            <div><span class="eyebrow">A LITTLE EXTRA LOVE</span>
+                <h2>Hungry for a deal?</h2>
+                <p>Free delivery on orders over ₹499. Good food tastes even better with a little saving.</p>
+            </div><a class="btn btn-dark" href="cart.html">View your cart ↗</a>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-top"><a class="brand brand-footer" href="index.html"><span
+                    class="brand-mark">U<span>B</span></span><span>urban<span
+                        class="brand-accent">bite.</span><small>FRESH FOOD, GOOD MOOD</small></span></a>
+            <p>Good food brings people together.<br>We just make it taste great.</p>
+            <div class="footer-social"><a href="#">ig</a><a href="#">f</a><a href="#">@</a></div>
+        </div>
+        <div class="footer-bottom"><span>© <span data-year></span> Urban Bite. Student portfolio project.</span>
+            <div><a href="menu.html">Menu</a><a href="contact.html">Contact</a><a href="cart.html">Your cart</a></div>
+        </div>
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+</body>
+
+</html>

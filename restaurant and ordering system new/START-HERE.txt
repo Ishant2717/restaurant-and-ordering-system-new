@@ -1,0 +1,13 @@
+URBAN BITE — START HERE
+
+1. Extract the ZIP.
+2. Open this folder in VS Code.
+3. Open index.html with Live Server (recommended) or double-click index.html.
+4. Use the navigation to visit Menu, Our Story, Reviews, Cart, and Contact.
+
+Built with HTML5, CSS3 and vanilla JavaScript only.
+No backend, database, npm, or installation is needed.
+
+Note: this is a front-end demo. Cart/orders/reviews/contact messages are stored only in
+the current browser's localStorage. Checkout does not charge money or send a real order.
+Food photos and Google Fonts use internet access; a local placeholder is provided.

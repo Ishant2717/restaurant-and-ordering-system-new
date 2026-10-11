@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guest feedback and reviews for Urban Bite.">
+    <title>Reviews | Urban Bite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="announcement">Freshly prepared every day <span>•</span> Free delivery on orders over ₹499</div>
+    <header class="site-header"><a class="brand" href="index.html"><span
+                class="brand-mark">U<span>B</span></span><span>urban<span class="brand-accent">bite.</span><small>FRESH
+                    FOOD, GOOD MOOD</small></span></a><button class="menu-toggle" aria-label="Open navigation"
+            aria-expanded="false">☰</button>
+        <nav class="nav-links"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">Our
+                story</a><a class="active" href="reviews.html">Reviews</a><a href="contact.html">Contact</a></nav>
+        <div class="header-actions"><a class="cart-link" href="cart.html">Cart <span class="cart-count">0</span></a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero section-wrap"><span class="eyebrow">KIND WORDS, FULL HEARTS</span>
+            <h1>Don't just take <em>our word.</em></h1>
+            <p>Read what guests have to say, or leave a note about your experience.</p>
+            <div class="breadcrumb"><a href="index.html">Home</a><span>/</span> Reviews</div>
+        </section>
+        <section class="section-wrap reviews-layout">
+            <div class="review-summary"><span class="eyebrow">GUEST LOVE</span>
+                <div class="rating-number">4.8<span>/5</span></div>
+                <div class="stars">★★★★★</div>
+                <p>Sample rating for this front-end portfolio project.</p>
+                <div class="rating-bars">
+                    <div><span>5 stars</span><i><b style="width:84%"></b></i><span>84%</span></div>
+                    <div><span>4 stars</span><i><b style="width:12%"></b></i><span>12%</span></div>
+                    <div><span>3 stars</span><i><b style="width:4%"></b></i><span>4%</span></div>
+                </div>
+            </div>
+            <div class="review-list" id="review-list">
+                <article class="review-card">
+                    <div class="review-card-top"><span class="person-avatar">AK</span>
+                        <div><strong>Aarav K.</strong><small>Sample guest review</small></div><span
+                            class="stars">★★★★★</span>
+                    </div>
+                    <p>“The kind of burger you think about the next day. Absolutely delicious!”</p>
+                </article>
+                <article class="review-card">
+                    <div class="review-card-top"><span class="person-avatar avatar-peach">SP</span>
+                        <div><strong>Sana P.</strong><small>Sample guest review</small></div><span
+                            class="stars">★★★★★</span>
+                    </div>
+                    <p>“Lovely flavours, generous portions, and the packaging was spotless.”</p>
+                </article>
+                <article class="review-card">
+                    <div class="review-card-top"><span class="person-avatar avatar-yellow">RM</span>
+                        <div><strong>Rohan M.</strong><small>Sample guest review</small></div><span
+                            class="stars">★★★★★</span>
+                    </div>
+                    <p>“My new go-to for a quick lunch. The veggie options are so good.”</p>
+                </article>
+            </div>
+        </section>
+        <section class="section-wrap form-section">
+            <div class="form-intro"><span class="eyebrow">YOUR TURN</span>
+                <h2>Leave a little <em>love.</em></h2>
+                <p>Your review is saved in this browser for the demo. It is not sent to a live restaurant.</p>
+            </div>
+            <form id="review-form" class="clean-form">
+                <div class="form-row"><label for="review-name">Your name<input id="review-name" name="name"
+                            maxlength="50" required placeholder="e.g. Priya S."></label><label for="review-rating">Your
+                        rating<select id="review-rating" name="rating" required>
+                            <option value="5">★★★★★ — Loved it</option>
+                            <option value="4">★★★★☆ — Really good</option>
+                            <option value="3">★★★☆☆ — Good</option>
+                            <option value="2">★★☆☆☆ — Could be better</option>
+                            <option value="1">★☆☆☆☆ — Not for me</option>
+                        </select></label></div><label for="review-text">Your review<textarea id="review-text"
+                        name="review" rows="4" minlength="8" maxlength="500" required
+                        placeholder="Tell us what you enjoyed..."></textarea></label><button class="btn btn-dark"
+                    type="submit">Post review ↗</button>
+                <p class="form-message" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-top"><a class="brand brand-footer" href="index.html"><span
+                    class="brand-mark">U<span>B</span></span><span>urban<span
+                        class="brand-accent">bite.</span><small>FRESH FOOD, GOOD MOOD</small></span></a>
+            <p>Good food brings people together.<br>We just make it taste great.</p>
+            <div class="footer-social"><a href="#">ig</a><a href="#">f</a><a href="#">@</a></div>
+        </div>
+        <div class="footer-bottom"><span>© <span data-year></span> Urban Bite. Student portfolio project.</span>
+            <div><a href="menu.html">Menu</a><a href="contact.html">Contact</a><a href="cart.html">Your cart</a></div>
+        </div>
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+</body>
+
+</html>
